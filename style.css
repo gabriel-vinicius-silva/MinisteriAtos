@@ -1,12 +1,16 @@
 * {
-
-margin: 1;
-padding: 0;
-
-}
-body {
-height: 100vh ;
-background-color: rgba(0, 0, 0, 0.158)
-
-
-}
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.158);
+  }
+  
+  .botao-inicial {
+    background-color: amarelo;
+    color:rgb(255, 0, 0);
+    font-size: 16px;
+  }
+  
