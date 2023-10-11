@@ -1,4 +1,7 @@
-* {
+  @import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap'); /* fonte ou fontes importadas*/
+  
+  
+  * {
     margin: 0;
     padding: 0;
   }
@@ -6,11 +9,15 @@
   body {
     height: 100vh;
     background-color: rgba(0, 0, 0, 0.158);
+    box-sizing: border-box;
+    font-family: 'Pixelify Sans', sans-serif;
   }
   
   .botao-inicial {
+    
     background-color: amarelo;
     color:rgb(255, 0, 0);
     font-size: 16px;
+    font-family: 'Pixelify Sans', sans-serif;
   }
 
