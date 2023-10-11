@@ -6,9 +6,11 @@
   body {
     height: 100vh;
     background-color: rgba(0, 0, 0, 0.158);
+    box-sizing: border-box;
   }
   
   .botao-inicial {
+    
     background-color: amarelo;
     color:rgb(255, 0, 0);
     font-size: 16px;
