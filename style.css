@@ -21,3 +21,26 @@
     font-family: 'Pixelify Sans', sans-serif;
   }
 
+..fotoPrincipal {
+  border-radius: 50%; /* Torna a imagem arredondada */
+  position: absolute;
+  right: 0; /* Inicialmente, a imagem começa à direita */
+  top: 0; /* Inicialmente, a imagem começa no topo */
+  transform: translateY(-100%); /* Deslocado 100% para cima (fora da tela) */
+}
+
+.animacao {
+  animation: deslizarEDiminuir 4s ease-in-out forwards; /* 4s é a duração da animação, ease-in-out é a curva de animação, e forwards faz com que a animação mantenha o estado final */
+}
+
+@keyframes deslizarEDiminuir {
+  0% {
+      transform: translateY(-100%); /* Posição inicial fora da tela (acima) */
+  }
+  50% {
+      transform: translateY(0) scale(0.8); /* Desliza para o centro e diminui de tamanho */
+  }
+  100% {
+      transform: translateY(0) scale(1); /* Posição final no centro e tamanho original */
+  }
+}
