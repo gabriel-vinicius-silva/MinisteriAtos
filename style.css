@@ -1,15 +1,50 @@
-  @import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap'); /* fonte ou fontes importadas*/
-  
-  
-  * {
+* {
+    /*fazendo o reset CSS [ = */
     margin: 0;
     padding: 0;
-  }
-  
-  body {
-    height: 100vh;
-    background-color: rgb(109, 109, 109);
     box-sizing: border-box;
-    font-family: 'Pixelify Sans', sans-serif;
   }
   
+  html {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  /*BODY:*/
+  body {
+    font-family: sans-serif;
+  }
+  
+header {
+    background-color: #BBBBBB;
+}
+
+.navegacao li{    
+    display: inline;
+    color: brown;
+    /*traforma o texto em maiusculo*/
+    text-transform: uppercase;
+    color: #000;
+    font-weight: bold;
+    margin-right: 50px;
+    position: relative;
+    top: -230px;
+    /*posiçao da direita do texto*/
+    left: 1800px;
+    font-size: 50px;
+}
+a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+.caixa{
+    position: relative;
+    width : 940px
+    /*pimerir valor = pra cima , seguindo valor = pra baixo 3 & 4 = automatico*/ 
+    margin :0,auto
+
+} 
+.topicos {
+
+display: inline-block;
+
+}
