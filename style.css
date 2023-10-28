@@ -8,16 +8,8 @@
   
   body {
     height: 100vh;
-    background-color: rgba(0, 0, 0, 0.158);
+    background-color: rgb(109, 109, 109);
     box-sizing: border-box;
     font-family: 'Pixelify Sans', sans-serif;
   }
   
-  .botao-inicial {
-    
-    background-color: amarelo;
-    color:rgb(255, 0, 0);
-    font-size: 16px;
-    font-family: 'Pixelify Sans', sans-serif;
-  }
-
