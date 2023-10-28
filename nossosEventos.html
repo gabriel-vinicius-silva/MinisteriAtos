@@ -4,32 +4,72 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ministério de Louvor Atos</title>
+    <style>
+        header {
+            text-align: center;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+        }
+
+        h1 {
+            font-size: 24px;
+            font-weight: bold;
+            margin-top: 0;
+            margin-bottom: 20px;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .botao-eventos {
+            width: 300px;
+            height: 50px;
+            background-color: #fff;
+            color: #000;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            cursor: pointer;
+
+            /* Efeito de rolagem */
+            &:hover {
+                background-color: #ffc8c8;
+            }
+
+            /* Efeito de escada */
+            &:nth-child(2) {
+                margin-left: 40px;
+            }
+
+            &:nth-child(3) {
+                margin-left: 80px;
+            }
+        }
+
+        .botao-eventos:first-child {
+            margin-left: 0;
+        }
+
+        .botao-eventos:last-child {
+            margin-right: 0;
+        }
+    </style>
 </head>
 <body>
+    <header>
+        <h1>Por onde já passamos</h1>
 
-
-    <body>
-   
-    <header style="text-align: center;">
-        
-        
-           <h1>de uma olhada nos nossos eventos </h1>
-        
         <nav>
-        
-            <!--nossos eventos-->
-                <a href="nossosEventos.html">
-                    <button class="botao-eventos" style="width: 300px; height: 50px;background-color:rgb(255, 255, 255);color:rgb(255, 2, 2); font-size: 16px;"">Igreja local</button>
-                </a>
-                <a href="#KM6">
-                    <button class="botao-eventos"  style="width: 300px; height: 50px;background-color:rgb(255, 255, 255);color:rgb(255, 0, 0); font-size: 16px;">IASD KM6</button>
-                </a>
-                <a href="#km6">
-                    <button class="botao-eventos"  style="width: 300px; height: 50px;background-color:rgb(255, 255, 255);color:rgb(255, 0, 0); font-size: 16px;"">IASD NOVA CIDADE</button>
-                </a>
-                <a href="#VISITANOSsEULAR">
-                    <button class="botao-eventos"  style="width: 300px; height: 50px; background-color:rgb(255, 255, 255);color:rgb(255, 0, 0); font-size: 16px;">AGENDE UMA VISITA NA SUA IGREJA</button>
-                </a>
-                           
+            <button class="botao-eventos">IGREJA LOCAL</button>
+            <button class="botao-eventos">IASD KM6</button>
+            <button class="botao-eventos">IASD NOVA CIDADE</button>
+            <button class="botao-eventos">AGENDE UMA VISITA NA SUA IGREJA</button>
         </nav>
     </header>
+
+    <body>
+</html>

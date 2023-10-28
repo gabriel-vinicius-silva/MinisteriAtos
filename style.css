@@ -20,4 +20,7 @@
     font-size: 16px;
     font-family: 'Pixelify Sans', sans-serif;
   }
+  .botao-eventos:hover {
+    background-color: rgb(0, 255, 115);
+}
 
