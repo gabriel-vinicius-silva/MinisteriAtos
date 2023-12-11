@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ministério de Louvor Atos</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        /* Adicione estilos específicos aqui, se necessário */
+    </style>
 </head>
 <body>
 
@@ -66,10 +69,17 @@
             </div>
 
             <div class="membro">
-                <img src="img/luiz.png" alt="Foto de Luiz, baterista" width="200">
+                <img src="img/kersia.png" alt="Foto de Luiz, baterista" width="200">
                 <h3>Kersia</h3>
                 <p>Baterista</p>
                 <p>Kersia é a nossa soprano , trazendo ritmo e energia contagiantes às nossas músicas. Ele é dedicado a criar uma base sólida para a adoração acontecer.</p>
+            </div>
+
+            <div class="membro">
+                <img src="img/nego.png" alt="Foto de Fabiano, tenor" width="200">
+                <h3>Fabiano</h3>
+                <p>Tenor</p>
+                <p>Fabiano é o nosso tenor, contribuindo com sua voz única para criar experiências significativas durante nossas apresentações. Ele é dedicado à excelência musical e à adoração autêntica.</p>
             </div>
         </div>
     </section>
@@ -80,5 +90,26 @@
             <p>&copy; 2023 Ministério Atos | Desenvolvido por Gabriel Vinicius</p>
         </div>
     </footer>
+
+    <button id="toTopBtn" onclick="scrollToTop()">Topo</button>
+
+    <script>
+        // Função para rolar até o topo
+        function scrollToTop() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+
+        // Exibir o botão "Topo" quando rolar a página para baixo
+        window.onscroll = function() {scrollFunction()};
+        
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                document.getElementById("toTopBtn").style.display = "block";
+            } else {
+                document.getElementById("toTopBtn").style.display = "none";
+            }
+        }
+    </script>
 </body>
 </html>
