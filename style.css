@@ -1,69 +1,118 @@
-* {
-    /*fazendo o reset CSS [ = */
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-nav {
-  /*lembre de sempre deixar o posicionamento absoluto*/
-  position: absolute;
-  right: 300px;
-  top: 100;
-  font-size: 20;
-
-}
-.caixaAlta{
-
-  text-transform: uppercase;
-  position: relative;
-  right: 600px;
+body {
+  background-color: #f8f5f2;
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #333;
+  transition: background-color 0.3s ease-in-out;
 }
 
-  html {
-    font-size: 16px;
-    line-height: 1.5;
-  }
-  /*BODY:*/
-  body {
-    font-family: sans-serif;
-  }
-  
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
 header {
-    background-color: #BBBBBB;
+  text-align: center;
+  padding: 20px 0;
 }
 
-.navegacao li{    
-    display: inline;
-    color: brown;
-    /*traforma o texto em maiusculo*/
-    text-transform: uppercase;
-    color: #000;
-    font-weight: bold;
-    margin-right: 50px;
-    position: relative;
-    top: -230px;
-    /*posiçao da direita do texto*/
-    left: 1800px;
-    font-size: 50px;
+.logo img {
+  width: 150px;
+  height: auto;
+  border-radius: 50%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
-a {
-    color: rgb(0, 0, 0);
-    text-decoration: none;
+
+h1 {
+  margin-top: 10px;
+  color: #383838;
 }
-.caixa{
-    position: relative;
-    width : 940px
-    /*pimerir valor = pra cima , seguindo valor = pra baixo 3 & 4 = automatico*/ 
-    margin :0,auto
 
-} 
-.topicos {
-
-display: inline-block;
-
+.menu {
+  background-color: #333;
+  padding: 10px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
-.imagemFundo{
 
-  
+.menu a {
+  color: #f5f5f5;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+  transition: color 0.3s ease-in-out;
+}
+
+.menu a:hover {
+  color: #ffd700; /* Cor de destaque ao passar o mouse */
+}
+
+section {
+  margin: 40px 0;
+}
+
+section h2 {
+  color: #383838;
+}
+
+section p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #555;
+}
+
+section ul {
+  list-style: none;
+  padding: 0;
+}
+
+section li {
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #383838;
+}
+
+footer {
+  text-align: center;
+  padding: 20px 0;
+  background-color: #333;
+  color: #f5f5f5;
+}
+
+footer hr {
+  border: 1px solid #f5f5f5;
+}
+
+footer p {
+  margin: 10px 0;
+}
+/* Adicione os estilos existentes aqui, e inclua os seguintes estilos para os membros */
+
+#membros {
+  margin: 40px 0;
+}
+
+.membro {
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.membro img {
+  border-radius: 50%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.membro h3 {
+  color: #383838;
+  margin-top: 10px;
+}
+
+.membro p {
+  color: #555;
+  margin: 5px 0;
 }
