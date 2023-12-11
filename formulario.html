@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ministério de Louvor Atos - Cadastro</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Adicione estilos específicos aqui, se necessário */
+        /* Inclua estilos para o formulário de cadastro */
+        form {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        input,
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 16px;
+            box-sizing: border-box;
+        }
+
+        button {
+            background-color: #333;
+            color: #fff;
+            padding: 12px 20px;
+            border: none;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <!-- Conteúdo do cabeçalho -->
+    </header>
+
+    <section id="cadastro">
+        <div class="container">
+            <h2>Cadastre-se para receber atualizações</h2>
+            <form>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="telefone">Telefone:</label>
+                <input type="tel" id="telefone" name="telefone">
+
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" rows="4"></textarea>
+
+                <button type="submit">Cadastrar</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <!-- Conteúdo do rodapé -->
+    </footer>
+
+    <button id="toTopBtn" onclick="scrollToTop()">Topo</button>
+
+    <script>
+        // Função para rolar até o topo
+        function scrollToTop() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+
+        // Exibir o botão "Topo" quando rolar a página para baixo
+        window.onscroll = function() {scrollFunction()};
+        
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                document.getElementById("toTopBtn").style.display = "block";
+            } else {
+                document.getElementById("toTopBtn").style.display = "none";
+            }
+        }
+    </script>
+</body>
+</html>
