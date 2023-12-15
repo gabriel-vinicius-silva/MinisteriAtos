@@ -1,43 +1,4 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ministério de Louvor Atos</title>
-    <link rel="stylesheet" href="style.css">
-    <style>
-        /* Adicione estilos específicos aqui, se necessário */
-    </style>
-    <script src="sketch.js"></script>
-</head>
-<body>
-
-    <header>
-        <div class="container">
-            <div class="logo">
-                <img src="logoSemFundo.png" width="150" alt="Logotipo do Ministério de Louvor Atos">
-            </div>
-            <h1>Bem-vindo ao Ministério de Louvor Atos</h1>
-        </div>
-        
-        <nav class="menu">
-            <div class="container">
-                <a href="nossosEventos.html">Sobre Nós</a>
-                <a href="https://chat.whatsapp.com/K0EIZhTg7RPGp5WWAMm6ka">Sugestões</a>
-                <a href="https://www.instagram.com/ministerio_atoss">Instagram</a>
-                <a href="https://maps.app.goo.gl/3yNNbjwcba877YLF7">Localização</a>
-                <a href="https://api.whatsapp.com/send?phone=5584999596721">Contato</a>
-            </div>
-        </nav>
-    </header>
-
-    <section id="introducao">
-        <div class="container">
-            <p>Bem-vindo ao Ministério de Louvor Atos. Somos dedicados a espalhar a mensagem de amor e esperança através da música. Junte-se a nós em nossos eventos e siga-nos nas redes sociais para ficar atualizado.</p>
-        </div>
-    </section>
-
-    <section id="membros">
+<section id="membros">
         <div class="container">
             <h2>Nossos Membros</h2>
             
@@ -84,33 +45,3 @@
             </div>
         </div>
     </section>
-
-    <footer>
-        <div class="container">
-            <hr>
-            <p>&copy; 2023 Ministério Atos | Desenvolvido por Gabriel Vinicius</p>
-        </div>
-    </footer>
-
-    <button id="toTopBtn" onclick="scrollToTop()">Topo</button>
-
-    <script>
-        // Função para rolar até o topo
-        function scrollToTop() {
-            document.body.scrollTop = 0;
-            document.documentElement.scrollTop = 0;
-        }
-
-        // Exibir o botão "Topo" quando rolar a página para baixo
-        window.onscroll = function() {scrollFunction()};
-        
-        function scrollFunction() {
-            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-                document.getElementById("toTopBtn").style.display = "block";
-            } else {
-                document.getElementById("toTopBtn").style.display = "none";
-            }
-        }
-    </script>
-</body>
-</html>

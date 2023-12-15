@@ -49,3 +49,21 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     }
 });
+<script>
+// Função para rolar até o topo
+function scrollToTop() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
+
+// Exibir o botão "Topo" quando rolar a página para baixo
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("toTopBtn").style.display = "block";
+    } else {
+        document.getElementById("toTopBtn").style.display = "none";
+    }
+}
+</script>
