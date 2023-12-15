@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ministério de Louvor Atos</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        /* Adicione estilos específicos aqui, se necessário */
+    </style>
     <script src="sketch.js"></script>
 </head>
 <body>
@@ -24,7 +27,7 @@
         
         <nav class="menu">
             <div class="container">
-                <a href="#introducao">Sobre Nós</a>
+                <a href="nossosEventos.html">Sobre Nós</a>
                 <a href="https://chat.whatsapp.com/K0EIZhTg7RPGp5WWAMm6ka">Sugestões</a>
                 <a href="https://www.instagram.com/ministerio_atoss">Instagram</a>
                 <a href="https://maps.app.goo.gl/3yNNbjwcba877YLF7">Localização</a>
@@ -74,8 +77,8 @@
             <div class="membro">
                 <img src="img/kersia.png" alt="Foto de Luiz, baterista" width="200">
                 <h3>Kersia</h3>
-                <p>Mezzo-Soprano</p>
-                <p>Kersia é a nossa soprano, trazendo ritmo e energia contagiantes às nossas músicas. Ele é dedicado a criar uma base sólida para a adoração acontecer.</p>
+                <p>Mezo - </p>
+                <p>Kersia é a nossa soprano , trazendo ritmo e energia contagiantes às nossas músicas. Ele é dedicado a criar uma base sólida para a adoração acontecer.</p>
             </div>
 
             <div class="membro">
@@ -84,7 +87,6 @@
                 <p>Tenor</p>
                 <p>Fabiano é o nosso tenor, contribuindo com sua voz única para criar experiências significativas durante nossas apresentações. Ele é dedicado à excelência musical e à adoração autêntica.</p>
             </div>
-
         </div>
     </section>
 
@@ -95,26 +97,27 @@
         </div>
     </footer>
 
-    <div class="SAC">Fale com nosso SAC</div>
-
     <button id="toTopBtn" onclick="scrollToTop()">Topo</button>
 
     <script>
+        // Função para rolar até o topo
         function scrollToTop() {
-            document.body.scrollIntoView({ behavior: 'smooth' });
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
         }
 
-        document.getElementById('toTopBtn').addEventListener('click', function() {
-            scrollToDiv('introducao');
-        });
-
-        function scrollToDiv(divId) {
-            var element = document.getElementById(divId);
-            if (element) {
-                element.scrollIntoView({ behavior: 'smooth' });
+        // Exibir o botão "Topo" quando rolar a página para baixo
+        window.onscroll = function() {scrollFunction()};
+        
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                document.getElementById("toTopBtn").style.display = "block";
+            } else {
+                document.getElementById("toTopBtn").style.display = "none";
             }
         }
     </script>
+<<<<<<< HEAD
 
     <form id="meuForm" class="container">
         Nome: <input type="text" id="nome" required><br>
@@ -133,5 +136,7 @@
         }
     </script>
 
+=======
+>>>>>>> 663b58a8d867844163e9569088092615e3f5e4e0
 </body>
 </html>

@@ -1,0 +1,47 @@
+<section id="membros">
+        <div class="container">
+            <h2>Nossos Membros</h2>
+            
+            <div class="membro">
+                <img src="img/kika.png" alt="Foto de Francisco, vocalista" width="200">
+                <h3>Francisco</h3>
+                <p>Tenor</p>
+                <p>Francisco é o nosso vocalista principal, com uma voz potente e expressiva que toca os corações dos ouvintes. Ele é apaixonado por adoração e comprometido em compartilhar a mensagem de esperança.</p>
+            </div>
+
+            <div class="membro">
+                <img src="img/maria.png" alt="Foto de Maria, vocalista" width="200">
+                <h3>Maria</h3>
+                <p>Soprano</p>
+                <p>Maria é a nossa soprano talentosa, trazendo uma doçura e elegância às nossas músicas. Ela é uma cantora inspiradora que ama criar atmosferas de adoração profunda.</p>
+            </div>
+
+            <div class="membro">
+                <img src="img/felipe.png" alt="Foto de Filipe, guitarrista" width="200">
+                <h3>Felipe</h3>
+                <p>Contralto - Violão</p>
+                <p>Felipe é o nosso talento no violão, trazendo energia e paixão à nossa música. Ele é habilidoso em criar arranjos que elevam a adoração a outro nível.</p>
+            </div>
+
+            <div class="membro">
+                <img src="img/marilene.png" alt="Foto de Marilene, tecladista" width="200">
+                <h3>Marilene</h3>
+                <p>Contralto</p>
+                <p>Marilene é a nossa vocalista talentosa, adicionando texturas ricas e atmosferas envolventes à nossa música. Ela é apaixonada por criar momentos especiais de adoração.</p>
+            </div>
+
+            <div class="membro">
+                <img src="img/kersia.png" alt="Foto de Luiz, baterista" width="200">
+                <h3>Kersia</h3>
+                <p>Mezo - </p>
+                <p>Kersia é a nossa soprano , trazendo ritmo e energia contagiantes às nossas músicas. Ele é dedicado a criar uma base sólida para a adoração acontecer.</p>
+            </div>
+
+            <div class="membro">
+                <img src="img/nego.png" alt="Foto de Fabiano, tenor" width="200">
+                <h3>Fabiano</h3>
+                <p>Tenor</p>
+                <p>Fabiano é o nosso tenor, contribuindo com sua voz única para criar experiências significativas durante nossas apresentações. Ele é dedicado à excelência musical e à adoração autêntica.</p>
+            </div>
+        </div>
+    </section>
